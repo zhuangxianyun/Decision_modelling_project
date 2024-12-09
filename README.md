@@ -14,7 +14,7 @@ https://colab.research.google.com/drive/1m2fI8RqY8K_MV0jbLuTYcfd9TXPE-PvR?usp=sh
 
 Report的DDL是25年1月9号晚上11点多。
 
-Report的链接是：https://www.overleaf.com/7873886391fvqdwzqnrcyz#3ac370
+咱们的Report的链接是：https://www.overleaf.com/7873886391fvqdwzqnrcyz#3ac370
 
 上一届印度学姐的参考report是：https://github.com/risg99/Nutriscore-Label-Decision-Modeling/blob/main/Ali_Rishika_Project_Report.pdf
 
