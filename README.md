@@ -13,7 +13,7 @@ This repository contains the implementation of a food classification project bas
 - **`Project_Nutriscore_Label_2024_2025.pdf`**: Comprehensive project report detailing methodologies, analyses, and results.
 - **`README.md`**: This documentation file providing an overview of the repository and usage instructions.
 
-### `data/` Directory
+### `Data/` Directory
 Contains processed and intermediate datasets used in the project:
 - **`food_data_combined_mcda.xlsx`**: Dataset combining Nutri-Score, Eco-Score, and MCDA model results.
 - **`food_data_filtered.xlsx`**: Dataset filtered for relevant categories and features from API.
