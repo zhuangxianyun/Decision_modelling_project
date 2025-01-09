@@ -1,4 +1,4 @@
-# Decision Modeling Project: 
+# Decision Modeling Project
 ## ELABORATION OF SOME DECISION MODELS FOR THE NUTRI-SCORE LABEL
 
 ## Overview
