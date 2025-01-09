@@ -8,28 +8,29 @@ This repository contains the implementation of a food classification project bas
 ## Repository Structure
 
 ### Root Directory
-- **`build_database.ipynb`**: Jupyter Notebook for building the initial dataset by integrating data from various sources and preprocessing.
+- **`build_analysis_database.ipynb`**: Jupyter Notebook for building the initial dataset by integrating data from various sources and preprocessing.
 - **`NutriScore_Presentation.pdf`**: Presentation slides summarizing the project and its findings.
 - **`Project_Nutriscore_Label_2024_2025.pdf`**: Comprehensive project report detailing methodologies, analyses, and results.
 - **`README.md`**: This documentation file providing an overview of the repository and usage instructions.
 
 ### `data/` Directory
 Contains processed and intermediate datasets used in the project:
-- **`food_data_classified.xlsx`**: Dataset with food items classified based on Nutri-Score and MCDA results.
 - **`food_data_combined_mcda.xlsx`**: Dataset combining Nutri-Score, Eco-Score, and MCDA model results.
+- **`food_data_filtered.xlsx`**: Dataset filtered for relevant categories and features from API.
 - **`food_data_cleaned1.xlsx`**: Cleaned dataset after handling missing values and duplicates.
-- **`food_data_filtered.xlsx`**: Dataset filtered for relevant categories and features.
+- **`food_data_classified.xlsx`**: Datasets with food items classified based on Optimistic and Pessimistic Electre-Tri model. For 1,2,3，it was the results of weight(4,3,3,3,2,2,1),For 4,5,6,it was the results of weight(1,1,1,1,4,4,1).$\lambda$ was in increasing order from 0.5 to 0.7.
+- **`Optimistic_Sorting.xlsx`**: Results of the optimistic ELECTRE-Tri sorting.
+- **`Pessimistic_Sorting.xlsx`**: Results of the pessimistic ELECTRE-Tri sorting.
+- **`weighted_sum_model_results.xlsx`**: Classification results using the Weighted Sum Model.
+- **`rule_based_classified.xlsx`**: Classification results using the Rule_based Model.
+- **`Some Metrics`**: These results were just output in the code file.
+
 
 ### `Decision Models/` Directory
 Contains implementation and results of different decision models:
-- **`dm_Electre-Tri.ipynb`**: Jupyter Notebook implementing the ELECTRE-Tri MCDA model for classification.
+- **`dm_Electre-Tri.ipynb`**: Jupyter Notebook implementing the ELECTRE-Tri MCDA model for classification and visualization. 
 - **`dm_ml_model.ipynb`**: Notebook implementing machine learning models (Random Forest, KNN, Gaussian Naive Bayes, XGBoost).
-- **`dm_Weighted_Sum_model_Rule_Model.ipynb`**: Notebook comparing the Weighted Sum and Simple Decision Rules models.
-- **`electri_model.ipynb`**: Additional exploration and visualization for the ELECTRE-Tri model.
-- **`Optimistic_Sorting.xlsx`**: Results of the optimistic ELECTRE-Tri sorting.
-- **`Pessimistic_Sorting.xlsx`**: Results of the pessimistic ELECTRE-Tri sorting.
-- **`weighted_sum_model_results.csv`**: Classification results using the Weighted Sum Model.
-- **`weighted_sum_scaled_results.csv`**: Normalized results from the Weighted Sum Model.
+- **`dm_Weighted_Sum_model_Rule_Model.ipynb`**: Notebook of the Weighted Sum and Simple Decision Rules models and comparison with other group.
 
 ---
 
