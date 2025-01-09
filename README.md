@@ -18,7 +18,7 @@ Contains processed and intermediate datasets used in the project:
 - **`food_data_combined_mcda.xlsx`**: Dataset combining Nutri-Score, Eco-Score, and MCDA model results.
 - **`food_data_filtered.xlsx`**: Dataset filtered for relevant categories and features from API.
 - **`food_data_cleaned1.xlsx`**: Cleaned dataset after handling missing values and duplicates.
-- **`food_data_classified.xlsx`**: Datasets with food items classified based on Optimistic and Pessimistic Electre-Tri model. For 1,2,3，it was the results of weight(4,3,3,3,2,2,1),For 4,5,6,it was the results of weight(1,1,1,1,4,4,1). $\lambda$ was in increasing order from 0.5 to 0.7.
+- **`food_data_classified.xlsx`**: Datasets with food items classified based on Optimistic and Pessimistic Electre-Tri model. For 1,2,3，it was the results of `weight` **(4,3,3,3,2,2,1)** ,For 4,5,6,it was the results of `weight` **(1,1,1,1,4,4,1)**. $\lambda$ was in increasing order from 0.5 to 0.7.
 - **`Optimistic_Sorting.xlsx`**: Results of the optimistic ELECTRE-Tri sorting.
 - **`Pessimistic_Sorting.xlsx`**: Results of the pessimistic ELECTRE-Tri sorting.
 - **`weighted_sum_model_results.xlsx`**: Classification results using the Weighted Sum Model.
