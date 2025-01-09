@@ -1,7 +1,7 @@
 # Decision Modeling Project: Nutri-Score Label Classification
 
 ## Overview
-This repository contains the implementation of a food classification project based on the Nutri-Score system. The project explores various decision modeling techniques, including Multi-Criteria Decision Analysis (MCDA) methods and machine learning models, to classify food products into predefined categories based on their nutritional properties.
+This repository showcases the final work completed as part of the Decision Modeling course taught by Brice Mayag.It contains the implementation of a food classification project based on the Nutri-Score system. The project explores various decision modeling techniques, including Multi-Criteria Decision Analysis (MCDA) methods and machine learning models, to classify food products into predefined categories based on their nutritional properties.
 
 ---
 
