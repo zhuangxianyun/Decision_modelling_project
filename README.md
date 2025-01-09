@@ -78,7 +78,7 @@ Contains implementation and results of different decision models:
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.x
-- Jupyter Notebook or Googld Colab
+- Jupyter Notebook or Google Colab
 - Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`
 
 ### Instructions
