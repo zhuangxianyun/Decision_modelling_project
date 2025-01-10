@@ -11,7 +11,7 @@ This repository showcases the final work completed as part of the Decision Model
 ### Root Directory
 - **`build_analysis_database.ipynb`**: Jupyter Notebook for building the initial dataset by integrating data from various sources and preprocessing.
 - **`NutriScore_Presentation.pdf`**: Presentation slides summarizing the project and its findings.
-- **`Project_Nutriscore_Label_2024_2025.pdf`**: Comprehensive project report detailing methodologies, analyses, and results.
+- **`Decision_Modeling_Project.pdf`**: Comprehensive project report detailing methodologies, analyses, and results.
 - **`README.md`**: This documentation file providing an overview of the repository and usage instructions.
 
 ### `Data/` Directory
